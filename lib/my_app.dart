@@ -15,7 +15,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'My Get Test Feature',
+      title: 'My Getx Test',
       getPages: appRoutes(),
       initialRoute: '/home',
     );
